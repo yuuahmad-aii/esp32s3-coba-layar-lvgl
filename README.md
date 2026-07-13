@@ -4,6 +4,12 @@ Proyek ini adalah contoh aplikasi untuk ESP32-S3 yang menggunakan antarmuka SPI 
 
 Aplikasi ini menampilkan sebuah angka (*counter*) di tengah layar dengan ukuran yang sangat besar (menggunakan font `Montserrat 48`), dan nilainya dapat ditambah atau dikurangi menggunakan dua buah tombol fisik.
 
+## Screenshot
+<p align="center">
+  <img src="gambar/20260713_220401.jpg" alt="Screenshot 1" width="48%" />
+  <img src="gambar/20260713_220427.jpg" alt="Screenshot 2" width="48%" />
+</p>
+
 ## Fitur
 * **Layar ST7789 via SPI**: Resolusi layar diatur menjadi **170 x 320** piksel.
 * **LVGL Porting**: Menggunakan komponen `esp_lvgl_port` untuk mempermudah integrasi LVGL dengan driver layar dari ESP-IDF (`esp_lcd`).
